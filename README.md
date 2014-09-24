@@ -1,5 +1,3 @@
-onlineTestDemo
-==============
-Hello
+OnlineQuiz
 
-R u der
+online quiz using Javascript,CSS,Html
