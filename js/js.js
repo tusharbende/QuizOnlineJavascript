@@ -8,10 +8,6 @@
 
 var win;
 
-// This function will remove quizStarted from localStorage on window/Tab closure
-window.onbeforeunload = function() {
-    localStorage.removeItem("quizStarted");
-    return '';
 
 
 function handler(e) {

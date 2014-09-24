@@ -14,6 +14,7 @@ function gen() {
 
 gen();
 
+// This function will remove quizStarted from localStorage on window/Tab closure
 
 window.onbeforeunload = function() {
     localStorage.removeItem("quizStarted");

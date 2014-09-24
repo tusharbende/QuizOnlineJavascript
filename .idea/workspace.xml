@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b133fbf3-8dfd-48a9-8c3d-30986b798b8d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/js.js" afterPath="$PROJECT_DIR$/js/js.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/js_q.js" afterPath="$PROJECT_DIR$/js/js_q.js" />
     </list>
@@ -9,6 +10,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b133fbf3-8dfd-48a9-8c3d-30986b798b8d" time="1411586981918" ignored="false" />
     <file path="/a.dummy" changelist="b133fbf3-8dfd-48a9-8c3d-30986b798b8d" time="1411587132396" ignored="false" />
+    <file path="/index.html" changelist="b133fbf3-8dfd-48a9-8c3d-30986b798b8d" time="1411588227875" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="50" selection-start="589" selection-end="589" vertical-scroll-proportion="-16.875">
+            <state line="24" column="49" selection-start="578" selection-end="578" vertical-scroll-proportion="0.5825243">
               <folding />
             </state>
           </provider>
@@ -51,16 +53,16 @@
       <file leaf-file-name="js.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="275" selection-end="275" vertical-scroll-proportion="-6.3461537">
+            <state line="10" column="0" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js_q.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="js_q.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/js_q.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="45" selection-start="3620" selection-end="3620" vertical-scroll-proportion="0.3271028">
+            <state line="17" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,6 +87,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/jquery-2.1.1.min.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/js/js_q.js" />
       </list>
@@ -276,13 +279,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="50" selection-start="589" selection-end="589" vertical-scroll-proportion="-16.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery-2.1.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="1446" selection-start="84245" selection-end="84245" vertical-scroll-proportion="0.0">
@@ -292,16 +288,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/js.js">
+    <entry file="file://$PROJECT_DIR$/js/js_q.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="275" selection-end="275" vertical-scroll-proportion="-6.3461537">
+        <state line="17" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/js_q.js">
+    <entry file="file://$PROJECT_DIR$/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="45" selection-start="3620" selection-end="3620" vertical-scroll-proportion="0.3271028">
+        <state line="10" column="0" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="49" selection-start="578" selection-end="578" vertical-scroll-proportion="0.5825243">
           <folding />
         </state>
       </provider>
