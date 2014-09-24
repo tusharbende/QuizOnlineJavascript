@@ -8,9 +8,6 @@
 
 var win;
 
-   // TO Do : remove this ***********************************************************************************
-
-    localStorage.removeItem("quizStarted");
 
 
 function handler(e) {
@@ -100,6 +97,42 @@ function resetFunction(){
 
 function redirectToBeginTest() {
     window.open("TestStart.html", "_self");
+
+}
+
+
+
+function setStartTime() {
+    var currentTime = new Date();
+
+    var hours = currentTime.getHours();
+    var minutes = currentTime.getMinutes();
+    var seconds = currentTime.getSeconds();
+    if (minutes < 10){
+        minutes = "0" + minutes;
+    }
+    if (seconds < 10){
+        seconds = "0" + seconds;
+    }
+    var v = hours + ":" + minutes + ":" + seconds + " ";
+    if(hours > 11){
+        v+="PM";
+    } else {
+        v+="AM"
+    }
+
+    localStorage.setItem('s_starttime',v);
+    var startTimeMS = (new Date()).getTime();
+    sessionStorage.setItem('startTime',startTimeMS);
+    sessionStorage.setItem('startmin',minutes);
+}
+
+
+function startTest()
+{
+   window.open("test.html", "_self");
+    // Set start time of the quiz
+    setStartTime();
 
 }
 

@@ -1,17 +1,24 @@
-/**
- * Created with JetBrains WebStorm.
- * User: synerzip
- * Date: 17/09/14
- * Time: 7:48 PM
- * To change this template use File | Settings | File Templates.
- */
+var j = 0;
+var prev_q = 0;
+var totalQuestions = 5;
+var correctAnswers = 0;
+var totalPercentage = 0;
+var finishedQuiz = 0;
+
+var quiz;
+function gen() {
+
+    document.getElementById('start').innerHTML = localStorage.getItem('s_starttime');
+
+}
+
+gen();
 
 
 window.onbeforeunload = function() {
     localStorage.removeItem("quizStarted");
     return '';
 };
-
 
 function submit() {
 
@@ -74,13 +81,13 @@ function displayPrevNext(temp) {
         {
             window.document.getElementsByName("next").disabled = false;
         }
-
+        
 
 
         j = temp;
         console.log("Question " + quiz.questions[j].question);
 
-        // Logic to display particular question with corresponding options
+        // Logic to display perticular question with corresponding options
         document.getElementById('question').innerHTML = quiz.questions[j].question;
 
         document.getElementById('opt1').innerHTML =  quiz.questions[j].option1;
@@ -125,8 +132,6 @@ function finishQuiz() {
     }
 
 }
-
-
 
 
 // Function for displaying current system time in hh:mm:ss PM/am format
