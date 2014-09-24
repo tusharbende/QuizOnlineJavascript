@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Log-in</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body onload="displayPrevNext(0); startTest()">
+
+    <div class="login-card">
+        <p>
+            <h2 align="center">Quiz</h2> <b>Start Time:</b> 
+            <span id="start"></span>
+        </p>
+
+        <p> <b>Current Time:</b> 
+            <span id="current_time"></span>
+        </p>
+
+        <!--10 min quiz-->
+        <p><b>Time Elapsed:</b>
+            <span id="elapsed"></span>
+        </p>
+        <!--<marquee behavior="alternate">Always submit your answer</marquee>-->
+
+        <table class="front" width="100%" border="0" cellspacing="0" cellpadding="1">
+            <tbody>
+
+                <tr>
+                    <td>
+                        <p>Question:
+                            <span id="question"></span>
+                        </p>
+                        <input type="radio" name="rad" id="1" value="r_opt1">
+                        <span id="opt1"></span>
+                        <br>
+                        <input type="radio" name="rad" id="2" value="r_opt2">
+                        <span id="opt2"></span>
+                        <br>
+                        <input type="radio" name="rad" id="3" value="r_opt3">
+                        <span id="opt3"></span>
+                        <br>
+                        <input type="radio" name="rad" id="4" value="r_opt4">
+                        <span id="opt4"></span>
+                        <p/>
+                        <button class="login login-button" onclick="submit()" id="submit">Submit</button>
+                        <span id="submit"></span>
+                        <p/>
+                        <button class="login login-button" onclick="displayPrevNext(j+1)" name="next">Next</button>
+                        <span id="next"></span>
+
+                        <p/>
+                        <button class="login login-button" onclick="displayPrevNext(j-1)" name="previous">Previous</button>
+                        <span id="previous"></span>
+
+                        <p/>
+                        <button class="login login-button" onclick="finishQuiz()" name="finish">Finish Quiz</button>
+                        <span id="finish"></span>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/js.js">
+    </script>
+    <script type="text/javascript" src="js/js_q.js"></script>
+
+</body>
+
+</html>

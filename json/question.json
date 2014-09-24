@@ -1,0 +1,53 @@
+{
+    "questions": [{
+        "id":1,
+        "question": "Are you human?",
+        "option1": "yes",
+        "option2": "no",
+        "option3": "cant say",
+        "option4": "both 1 and 2",
+        "selectedAnswer": "",
+        "prevCorrectAnswered": 0,
+        "correctAnswer": 1
+    }, {
+        "id":2,
+        "question": "Ice cream is made up of..?",
+        "option1": "Milk",
+        "option2": "Meat",
+        "option3": "Bread",
+        "option4": "both 1 and 2",
+        "selectedAnswer": "",
+        "prevCorrectAnswered": 0,
+        "correctAnswer": 1
+    }, {
+        "id":3,
+        "question": "India is a nation of?",
+        "option1": "Hindu",
+        "option2": "Muslim",
+        "option3": "Christian",
+        "option4": "All",
+        "selectedAnswer": "",
+        "prevCorrectAnswered": 0,
+        "correctAnswer": 4
+    }, {
+        "id":4,
+        "question": "First break of Shahrukh Khan",
+        "option1": "Circus",
+        "option2": "Kuch kuch hota hai",
+        "option3": "Chennai express",
+        "option4": "Sex in the city",
+        "selectedAnswer": "",
+        "prevCorrectAnswered": 0,
+        "correctAnswer": 1
+    }, {
+        "id":5,
+        "question": "Which is a Salman Khan movie?",
+        "option1": "Ek tha tigar",
+        "option2": "Dabbang",
+        "option3": "Kick",
+        "option4": "All",
+        "selectedAnswer": "",
+        "prevCorrectAnswered": 0,
+        "correctAnswer": 4
+    }]
+}
