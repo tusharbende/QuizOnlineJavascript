@@ -8,6 +8,10 @@
 
 var win;
 
+// This function will remove quizStarted from localStorage on window/Tab closure
+window.onbeforeunload = function() {
+    localStorage.removeItem("quizStarted");
+    return '';
 
 
 function handler(e) {
@@ -66,14 +70,36 @@ function submitDataFunction(){
         case "rohit":
             if(entered_password=="rohit")
             {
-              
-              if(localStorage.getItem("quizStarted")==="True")
+
+                if(localStorage.getItem("quizStarted")==="True")
                 {
                     alert("Your session is already active in other tab");
                     return false;
                 }
                 
-                alert("Welcome Rohit");
+                alert("Welcome Rohit Deshmukh");
+                setDatatosessionstorage(entered_username);
+                localStorage.setItem('quizStarted',"True");
+                // So User is valid user so show next data entry page.
+                redirectToBeginTest();
+            }
+            else
+            {
+                alert("User name and password does not match !!!");
+                return false;
+            }
+            break;
+        case "tushar":
+            if(entered_password=="tushar")
+            {
+                if(localStorage.getItem("quizStarted")==="True")
+                {
+                    alert("Your session is already active in other tab");
+                    return false;
+                }
+
+
+                alert("Welcome Tushar Bende");
                 setDatatosessionstorage(entered_username);
                 localStorage.setItem('quizStarted',"True");
                 // So User is valid user so show next data entry page.

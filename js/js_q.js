@@ -125,7 +125,7 @@ function finishQuiz() {
         var greeting = result === "passed" ? "Congratulations" : "sorry";
         alert(greeting + "  You " + result + " the exam");
         finishedQuiz = 1;
-        localStorage.setItem('quizStarted',"False"); // Tushar added
+        localStorage.setItem('quizStarted',"False");
     }
     if (finishedQuiz > 0) {
         window.open("http://www.google.com", "_self");
